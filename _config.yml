@@ -73,8 +73,8 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-#theme: hexo-theme-freemind
-theme: Lap
+theme: hexo-theme-freemind
+#theme: hexo-theme-Wikitten
 #theme: meilidu-hexo
 
 # Deployment
@@ -83,8 +83,3 @@ deploy:
   type: git
   repo: git@github.com:sun031/blog.git
   branch: master
-
-search:
-  path: search.xml
-  field: all
-  content: true

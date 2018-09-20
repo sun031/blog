@@ -3,6 +3,31 @@
   
     
     <entry>
+      <title>Tibet Pn plans</title>
+      <link href="/2018/09/20/Tibet-Pn-plans/"/>
+      <url>/2018/09/20/Tibet-Pn-plans/</url>
+      
+        <content type="html"><![CDATA[<h2 id="数据收集"><a href="#数据收集" class="headerlink" title="数据收集"></a>数据收集</h2><ol><li>中国固定台网走时数据，已收集，待整理出研究区域的震相</li><li>ISC台站走时数据，已收集，待整理出研究区域的震相</li><li>流动台站波形数据，已收集</li><li>中国固定台站波形数据，已请科大程世华收集</li></ol><h2 id="震相数据拾取与处理"><a href="#震相数据拾取与处理" class="headerlink" title="震相数据拾取与处理"></a>震相数据拾取与处理</h2><ol><li>流动台站波形数据拾取Pn，正在开展</li><li>固定台站波形数据拾取Pn，</li></ol><h2 id="初始模型建立"><a href="#初始模型建立" class="headerlink" title="初始模型建立"></a>初始模型建立</h2><h3 id="Moho-已完成"><a href="#Moho-已完成" class="headerlink" title="Moho - 已完成"></a>Moho - 已完成</h3><ol><li>Kennett提供的印度及西藏台站的数据，Tectonophysics</li><li>中国固定台站下Moho厚度，He et al. 2014</li><li>利用inverse distance weighting进行插值，100km范围内的台站</li></ol><h3 id="速度模型，包括P波和S波初始速度模型"><a href="#速度模型，包括P波和S波初始速度模型" class="headerlink" title="速度模型，包括P波和S波初始速度模型"></a>速度模型，包括P波和S波初始速度模型</h3><ol><li>尝试多个全球模型，LNLL P波模型，SL2013sv模型</li><li>区域模型，但需要平滑，UCBoulder Tibet Model</li><li>波速比将S波模型转换为P波模型</li><li>Lithos 1.0模型的波速比</li></ol><h2 id="地震事件重定位"><a href="#地震事件重定位" class="headerlink" title="地震事件重定位"></a>地震事件重定位</h2><ol><li>整理以前的程序</li><li>写程序的帮助文档，用sphinx，生成PDF和HTML</li></ol><h3 id="技术细节"><a href="#技术细节" class="headerlink" title="技术细节"></a>技术细节</h3><ol><li>去除定位后走时残差大的台站，e.g., &gt;1.0s或者大于2倍标准差</li><li>然后进行重新定位</li><li>对地震事件进行多次重定位，给出4个参数平均值及其标准差</li><li>使用4个参数平均值进行后续反演</li></ol><h2 id="FMTOMO反演"><a href="#FMTOMO反演" class="headerlink" title="FMTOMO反演"></a>FMTOMO反演</h2><ol><li>测试不同的阻尼和光滑因子: Liang et al. (2016EPSL)根据经验选取，Rawlinson et al. (2006JGR)选取不同的因子进行反演获得方差曲线后选取。</li><li>不同初始速度模型进行反演</li><li>对走时添加随机噪音，待定</li><li>分辨率测试，预期分辨率2°X2°或者更大</li></ol><h2 id="其他-–-完成2018-09-20"><a href="#其他-–-完成2018-09-20" class="headerlink" title="其他 – 完成2018-09-20"></a>其他 – 完成2018-09-20</h2><ol><li>获取构造线数据</li><li>南北向的rift数据<br><a href="https://github.com/HimaTibetMap/HimaTibetMap" target="_blank" rel="noopener">https://github.com/HimaTibetMap/HimaTibetMap</a></li></ol><h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol><li>宋晓东PNAS2018文章</li><li>钮凤林NatComm2017文章</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Project </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Tibet </tag>
+            
+            <tag> Pn </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Are you OK?</title>
       <link href="/2018/09/19/2018-09-19-Test/"/>
       <url>/2018/09/19/2018-09-19-Test/</url>
@@ -45,43 +70,5 @@
     </entry>
     
   
-  
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index-1.html"/>
-      <url>/tags/index-1.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    <entry>
-      <title>tags</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    <entry>
-      <title>search</title>
-      <link href="/search/index.html"/>
-      <url>/search/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
   
 </search>
