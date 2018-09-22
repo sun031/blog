@@ -8,7 +8,7 @@ date: 2018-09-20 13:09:30
 1. **HimaTibetMap** 
 https://github.com/HimaTibetMap/HimaTibetMap
 
-## Velocity model
+## Velocity models
 
 1. **IRIS Earth Models**: Linked model names point to a dedicated page for the model that provides model information and download links.
 http://ds.iris.edu/ds/products/emc-earthmodels/
@@ -32,3 +32,10 @@ http://ciei.colorado.edu/Models/
 
 1. Ambient noise and Surface wave tomography
 http://ciei.colorado.edu/Products/
+
+##IRIS
+1. Data Services Products
+http://ds.iris.edu/ds/products/
+
+2. IRIS DMC MetaData Aggregator
+http://ds.iris.edu/mda
